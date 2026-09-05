@@ -52,7 +52,7 @@ Gerekli görüldüğünde bu politika güncellenebilir. Güncel sürüm bu sayfa
 
 Gizlilik politikasıyla ilgili sorularınız için geliştiriciye aşağıdaki kanaldan ulaşabilirsiniz:
 
-**E-posta:** [geliştirici iletişim e-postanızı buraya ekleyin]
+**E-posta:** erdemsupports@gmail.com
 
 ---
 
