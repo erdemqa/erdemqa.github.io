@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "cities": [
+    {
+      "id": "rome",
+      "slug": "rome",
+      "localizedName": {
+        "values": {
+          "tr": "Roma",
+          "en": "Rome"
+        }
+      },
+      "country": {
+        "values": {
+          "tr": "İtalya",
+          "en": "Italy"
+        }
+      },
+      "version": 1,
+      "sizeBytes": 2106,
+      "thumbnailAssetName": "rome-city",
+      "thumbnailURL": null,
+      "packURL": null,
+      "bundlePackResourceName": "rome-v1.zip"
+    },
+    {
+      "id": "florence",
+      "slug": "florence",
+      "localizedName": {
+        "values": {
+          "tr": "Floransa",
+          "en": "Florence"
+        }
+      },
+      "country": {
+        "values": {
+          "tr": "İtalya",
+          "en": "Italy"
+        }
+      },
+      "version": 3,
+      "sizeBytes": 12437870,
+      "thumbnailAssetName": "rome-panorama",
+      "thumbnailURL": null,
+      "packURL": null,
+      "bundlePackResourceName": "florence-v3.zip"
+    }
+  ]
+}
