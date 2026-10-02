@@ -42,8 +42,8 @@
       "sizeBytes": 12437870,
       "thumbnailAssetName": "rome-panorama",
       "thumbnailURL": null,
-      "packURL": null,
-      "bundlePackResourceName": "florence-v3.zip"
+      "packURL": "https://erdemqa.github.io/florence-v3.zip",
+      "bundlePackResourceName": null
     }
   ]
 }
