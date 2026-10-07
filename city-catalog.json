@@ -17,7 +17,7 @@
         }
       },
       "version": 4,
-      "sizeBytes": 68853914,
+      "sizeBytes": 67631827,
       "thumbnailAssetName": "rome-city",
       "thumbnailURL": null,
       "packURL": "https://erdemqa.github.io/rome-v4.zip",
@@ -25,7 +25,8 @@
       "supportedLanguages": [
         "tr",
         "en"
-      ]
+      ],
+      "showReferences": true
     },
     {
       "id": "florence",
@@ -51,7 +52,8 @@
       "supportedLanguages": [
         "tr",
         "en"
-      ]
+      ],
+      "showReferences": true
     }
   ]
 }
