@@ -16,11 +16,11 @@
           "en": "Italy"
         }
       },
-      "version": 4,
-      "sizeBytes": 67631827,
+      "version": 5,
+      "sizeBytes": 72473739,
       "thumbnailAssetName": "rome-city",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/rome-v4.zip",
+      "packURL": "https://erdemqa.github.io/rome-v5.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
