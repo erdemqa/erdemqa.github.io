@@ -17,11 +17,15 @@
         }
       },
       "version": 3,
-      "sizeBytes": 68734865,
+      "sizeBytes": 68849681,
       "thumbnailAssetName": "rome-city",
       "thumbnailURL": null,
       "packURL": "https://erdemqa.github.io/rome-v3.zip",
-      "bundlePackResourceName": null
+      "bundlePackResourceName": null,
+      "supportedLanguages": [
+        "tr",
+        "en"
+      ]
     },
     {
       "id": "florence",
@@ -43,7 +47,11 @@
       "thumbnailAssetName": "rome-panorama",
       "thumbnailURL": null,
       "packURL": "https://erdemqa.github.io/florence-v6.zip",
-      "bundlePackResourceName": null
+      "bundlePackResourceName": null,
+      "supportedLanguages": [
+        "tr",
+        "en"
+      ]
     }
   ]
 }
