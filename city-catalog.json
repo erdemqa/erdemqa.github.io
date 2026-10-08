@@ -54,6 +54,33 @@
         "en"
       ],
       "showReferences": true
+    },
+    {
+      "id": "istanbul",
+      "slug": "istanbul",
+      "localizedName": {
+        "values": {
+          "tr": "Istanbul",
+          "en": "Istanbul"
+        }
+      },
+      "country": {
+        "values": {
+          "tr": "Türkiye",
+          "en": "Türkiye"
+        }
+      },
+      "version": 1,
+      "sizeBytes": 33800335,
+      "thumbnailAssetName": "rome-panorama",
+      "thumbnailURL": null,
+      "packURL": "https://erdemqa.github.io/istanbul-v1.zip",
+      "bundlePackResourceName": null,
+      "supportedLanguages": [
+        "tr",
+        "en"
+      ],
+      "showReferences": true
     }
   ]
 }
