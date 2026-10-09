@@ -70,11 +70,11 @@
           "en": "Türkiye"
         }
       },
-      "version": 1,
-      "sizeBytes": 33838963,
+      "version": 3,
+      "sizeBytes": 33970025,
       "thumbnailAssetName": "rome-panorama",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/istanbul-v1.zip",
+      "packURL": "https://erdemqa.github.io/istanbul-v3.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
