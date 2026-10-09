@@ -43,11 +43,11 @@
           "en": "Italy"
         }
       },
-      "version": 6,
-      "sizeBytes": 102061939,
+      "version": 11,
+      "sizeBytes": 22158074,
       "thumbnailAssetName": "rome-panorama",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/florence-v6.zip",
+      "packURL": "https://erdemqa.github.io/florence-v11.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
