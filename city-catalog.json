@@ -108,6 +108,33 @@
         "en"
       ],
       "showReferences": true
+    },
+    {
+      "id": "barcelona",
+      "slug": "barcelona",
+      "localizedName": {
+        "values": {
+          "tr": "Barselona",
+          "en": "Barcelona"
+        }
+      },
+      "country": {
+        "values": {
+          "tr": "İspanya",
+          "en": "Spain"
+        }
+      },
+      "version": 1,
+      "sizeBytes": 19783965,
+      "thumbnailAssetName": "barcelona-hero",
+      "thumbnailURL": null,
+      "packURL": "https://erdemqa.github.io/barcelona-v1.zip",
+      "bundlePackResourceName": null,
+      "supportedLanguages": [
+        "tr",
+        "en"
+      ],
+      "showReferences": true
     }
   ]
 }
