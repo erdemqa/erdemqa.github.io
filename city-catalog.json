@@ -18,7 +18,7 @@
       },
       "version": 45,
       "sizeBytes": 74702546,
-      "thumbnailAssetName": "rome-city",
+      "thumbnailAssetName": "rome-hero",
       "thumbnailURL": null,
       "packURL": "https://erdemqa.github.io/rome-v45.zip",
       "bundlePackResourceName": null,
@@ -45,7 +45,7 @@
       },
       "version": 11,
       "sizeBytes": 22158074,
-      "thumbnailAssetName": "rome-panorama",
+      "thumbnailAssetName": "florence-hero",
       "thumbnailURL": null,
       "packURL": "https://erdemqa.github.io/florence-v11.zip",
       "bundlePackResourceName": null,
@@ -72,9 +72,36 @@
       },
       "version": 3,
       "sizeBytes": 33970025,
-      "thumbnailAssetName": "rome-panorama",
+      "thumbnailAssetName": "istanbul-hero",
       "thumbnailURL": null,
       "packURL": "https://erdemqa.github.io/istanbul-v3.zip",
+      "bundlePackResourceName": null,
+      "supportedLanguages": [
+        "tr",
+        "en"
+      ],
+      "showReferences": true
+    },
+    {
+      "id": "paris",
+      "slug": "paris",
+      "localizedName": {
+        "values": {
+          "tr": "Paris",
+          "en": "Paris"
+        }
+      },
+      "country": {
+        "values": {
+          "tr": "Fransa",
+          "en": "France"
+        }
+      },
+      "version": 1,
+      "sizeBytes": 23499173,
+      "thumbnailAssetName": "paris-hero",
+      "thumbnailURL": null,
+      "packURL": "https://erdemqa.github.io/paris-v1.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
