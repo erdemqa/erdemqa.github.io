@@ -97,11 +97,11 @@
           "en": "France"
         }
       },
-      "version": 1,
-      "sizeBytes": 23499173,
+      "version": 2,
+      "sizeBytes": 25685338,
       "thumbnailAssetName": "paris-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/paris-v1.zip",
+      "packURL": "https://erdemqa.github.io/paris-v2.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
