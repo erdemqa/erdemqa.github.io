@@ -70,11 +70,11 @@
           "en": "Türkiye"
         }
       },
-      "version": 4,
-      "sizeBytes": 32035254,
+      "version": 5,
+      "sizeBytes": 32062942,
       "thumbnailAssetName": "istanbul-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/istanbul-v4.zip",
+      "packURL": "https://erdemqa.github.io/istanbul-v5.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
