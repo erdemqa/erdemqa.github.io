@@ -124,11 +124,11 @@
           "en": "Spain"
         }
       },
-      "version": 3,
-      "sizeBytes": 20814410,
+      "version": 4,
+      "sizeBytes": 22329692,
       "thumbnailAssetName": "barcelona-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/barcelona-v3.zip",
+      "packURL": "https://erdemqa.github.io/barcelona-v4.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
