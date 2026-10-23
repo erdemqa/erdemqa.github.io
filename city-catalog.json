@@ -44,7 +44,7 @@
         }
       },
       "version": 25,
-      "sizeBytes": 23077699,
+      "sizeBytes": 28469143,
       "thumbnailAssetName": "florence-hero",
       "thumbnailURL": null,
       "packURL": "https://erdemqa.github.io/florence-v25.zip",
@@ -58,12 +58,12 @@
         "en": {
           "url": "https://erdemqa.github.io/florence-v25-audio-en.zip",
           "version": 25,
-          "sizeBytes": 41413085
+          "sizeBytes": 72950873
         },
         "tr": {
           "url": "https://erdemqa.github.io/florence-v25-audio-tr.zip",
           "version": 25,
-          "sizeBytes": 50014622
+          "sizeBytes": 88452000
         }
       }
     },
