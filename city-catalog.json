@@ -151,12 +151,12 @@
         "en": {
           "url": "https://erdemqa.github.io/barcelona-v5-audio-en.zip",
           "version": 5,
-          "sizeBytes": 42317174
+          "sizeBytes": 63378062
         },
         "tr": {
           "url": "https://erdemqa.github.io/barcelona-v5-audio-tr.zip",
           "version": 5,
-          "sizeBytes": 50947219
+          "sizeBytes": 76323995
         }
       }
     }
