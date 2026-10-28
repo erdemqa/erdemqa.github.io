@@ -56,12 +56,12 @@
       "showReferences": true,
       "audioPackages": {
         "en": {
-          "url": "https://erdemqa.github.io/florence-v25-audio-en.zip",
+          "url": "https://audio.pelargo.app/florence-v25-audio-en.zip",
           "version": 25,
           "sizeBytes": 72950873
         },
         "tr": {
-          "url": "https://erdemqa.github.io/florence-v25-audio-tr.zip",
+          "url": "https://audio.pelargo.app/florence-v25-audio-tr.zip",
           "version": 25,
           "sizeBytes": 88452000
         }
