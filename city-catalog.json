@@ -16,17 +16,29 @@
           "en": "Italy"
         }
       },
-      "version": 46,
-      "sizeBytes": 74703836,
+      "version": 47,
+      "sizeBytes": 80184993,
       "thumbnailAssetName": "rome-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/rome-v46.zip",
+      "packURL": "https://erdemqa.github.io/rome-v47.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
         "en"
       ],
-      "showReferences": true
+      "showReferences": true,
+      "audioPackages": {
+        "en": {
+          "url": "https://audio.pelargo.app/rome-v47-audio-en.zip",
+          "version": 47,
+          "sizeBytes": 263647501
+        },
+        "tr": {
+          "url": "https://audio.pelargo.app/rome-v47-audio-tr.zip",
+          "version": 47,
+          "sizeBytes": 325903746
+        }
+      }
     },
     {
       "id": "florence",
