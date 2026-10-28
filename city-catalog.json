@@ -82,17 +82,29 @@
           "en": "Türkiye"
         }
       },
-      "version": 5,
-      "sizeBytes": 32062942,
+      "version": 13,
+      "sizeBytes": 35376144,
       "thumbnailAssetName": "istanbul-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/istanbul-v5.zip",
+      "packURL": "https://erdemqa.github.io/istanbul-v13.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
         "en"
       ],
-      "showReferences": true
+      "showReferences": true,
+      "audioPackages": {
+        "en": {
+          "url": "https://audio.pelargo.app/istanbul-v13-audio-en.zip",
+          "version": 13,
+          "sizeBytes": 123709693
+        },
+        "tr": {
+          "url": "https://audio.pelargo.app/istanbul-v13-audio-tr.zip",
+          "version": 13,
+          "sizeBytes": 154013051
+        }
+      }
     },
     {
       "id": "paris",
