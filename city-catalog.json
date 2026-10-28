@@ -149,12 +149,12 @@
       "showReferences": true,
       "audioPackages": {
         "en": {
-          "url": "https://erdemqa.github.io/barcelona-v5-audio-en.zip",
+          "url": "https://audio.pelargo.app/barcelona-v5-audio-en.zip",
           "version": 5,
           "sizeBytes": 63378062
         },
         "tr": {
-          "url": "https://erdemqa.github.io/barcelona-v5-audio-tr.zip",
+          "url": "https://audio.pelargo.app/barcelona-v5-audio-tr.zip",
           "version": 5,
           "sizeBytes": 76323995
         }
