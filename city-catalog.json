@@ -55,11 +55,11 @@
           "en": "Italy"
         }
       },
-      "version": 25,
-      "sizeBytes": 28469143,
+      "version": 26,
+      "sizeBytes": 27026255,
       "thumbnailAssetName": "florence-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/florence-v25.zip",
+      "packURL": "https://erdemqa.github.io/florence-v26.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
@@ -68,13 +68,13 @@
       "showReferences": true,
       "audioPackages": {
         "en": {
-          "url": "https://audio.pelargo.app/florence-v25-audio-en.zip",
-          "version": 25,
+          "url": "https://audio.pelargo.app/florence-v26-audio-en.zip",
+          "version": 26,
           "sizeBytes": 72950873
         },
         "tr": {
-          "url": "https://audio.pelargo.app/florence-v25-audio-tr.zip",
-          "version": 25,
+          "url": "https://audio.pelargo.app/florence-v26-audio-tr.zip",
+          "version": 26,
           "sizeBytes": 88452000
         }
       }
