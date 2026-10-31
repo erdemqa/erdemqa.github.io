@@ -16,11 +16,11 @@
           "en": "Italy"
         }
       },
-      "version": 47,
-      "sizeBytes": 80184993,
+      "version": 55,
+      "sizeBytes": 83921182,
       "thumbnailAssetName": "rome-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/rome-v47.zip",
+      "packURL": "https://erdemqa.github.io/rome-v55.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
@@ -29,14 +29,14 @@
       "showReferences": true,
       "audioPackages": {
         "en": {
-          "url": "https://audio.pelargo.app/rome-v47-audio-en.zip",
-          "version": 47,
-          "sizeBytes": 263647501
+          "url": "https://audio.pelargo.app/rome-v55-audio-en.zip",
+          "version": 55,
+          "sizeBytes": 281339539
         },
         "tr": {
-          "url": "https://audio.pelargo.app/rome-v47-audio-tr.zip",
-          "version": 47,
-          "sizeBytes": 325903746
+          "url": "https://audio.pelargo.app/rome-v55-audio-tr.zip",
+          "version": 55,
+          "sizeBytes": 348327581
         }
       }
     },
