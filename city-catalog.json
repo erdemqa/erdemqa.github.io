@@ -133,17 +133,29 @@
           "en": "France"
         }
       },
-      "version": 3,
-      "sizeBytes": 25685804,
+      "version": 5,
+      "sizeBytes": 31101939,
       "thumbnailAssetName": "paris-hero",
       "thumbnailURL": null,
-      "packURL": "https://erdemqa.github.io/paris-v3.zip",
+      "packURL": "https://erdemqa.github.io/paris-v5.zip",
       "bundlePackResourceName": null,
       "supportedLanguages": [
         "tr",
         "en"
       ],
-      "showReferences": true
+      "showReferences": true,
+      "audioPackages": {
+        "en": {
+          "url": "https://audio.pelargo.app/paris-v5-audio-en.zip",
+          "version": 5,
+          "sizeBytes": 84599722
+        },
+        "tr": {
+          "url": "https://audio.pelargo.app/paris-v5-audio-tr.zip",
+          "version": 5,
+          "sizeBytes": 102807475
+        }
+      }
     },
     {
       "id": "barcelona",
