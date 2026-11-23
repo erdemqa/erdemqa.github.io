@@ -2,140 +2,103 @@
 
 **Last updated: 23 November 2026**
 
-This Privacy Policy explains how Pelargo, its iOS application, and the services used to provide city packs and app functionality process information about users.
+This Privacy Policy explains how Pelargo processes information when you use the Pelargo iOS app and its related content, feedback, and delivery services.
 
 **Data controller and publisher:** Erdem Özdemir (individual developer)  
 **Privacy contact:** [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com)
 
-This Policy applies to Pelargo and its related content-delivery, feedback, and support services. It does not replace the privacy policies of Apple or other third-party providers.
+This Policy applies to Pelargo and its related services. It does not replace the privacy policies of Apple or other service providers.
 
 ## 1. At a glance
 
 - Pelargo does not require you to create an account or sign in.
 - Saved places, user-created lists and notes, app preferences, and downloaded city content are stored on your device for app functionality.
-- Product analytics is optional. Pelargo sends analytics to PostHog only after you opt in. You can withdraw that permission at any time in **Profile → Privacy & Analytics**.
-- Declining analytics does not restrict app features, city-pack access, or purchases.
+- Optional usage analytics is off by default. If you opt in, Pelargo shares limited usage information with PostHog, an analytics provider whose EU Cloud service is hosted in the European Union.
+- You can change your analytics choice at any time in **Profile → Privacy & Analytics**. Declining analytics does not restrict app features, city-pack access, or purchases.
 - Pelargo does not display third-party advertising, use the advertising identifier (IDFA), or track you across other companies' apps and websites.
-- Pelargo does not request access to your device's precise location in the current version. Map screens display place coordinates included in city content; they do not need your live GPS location.
+- In the current version, Pelargo does not request access to your device's precise location.
 
 ## 2. Information processed by Pelargo
 
 ### 2.1 Information stored on your device
 
-Pelargo stores information locally to provide its features. Depending on how you use the app, this may include:
+Pelargo stores information locally to provide its features. This may include your app language and preferences, onboarding status, saved places, user-created lists and notes, audio preferences, and downloaded city packs and audio files.
 
-- Your selected app language and other app preferences.
-- Onboarding and coach-mark completion status.
-- Saved places, user-created lists, list ordering, and notes you add to those lists.
-- Audio playback preferences and related app state.
-- Downloaded city packs and audio assets.
-- Analytics events waiting in a local queue until they can be sent over Wi-Fi, if you have enabled analytics.
+Pelargo does not provide an account or cloud-sync service for saved lists and notes. Normal use of these features does not send their contents to Pelargo's servers. Device backups, if enabled, are managed through iOS and your Apple settings.
 
-Pelargo does not operate a user-account or cloud-sync service for your saved lists and notes. These items are not sent to Pelargo's servers as part of normal list use. Device backups, if enabled in iOS, are controlled by your device and Apple settings.
+### 2.2 Optional usage analytics
 
-### 2.2 Optional product analytics
+Analytics is disabled unless you opt in. If you allow optional analytics, Pelargo sends limited product-usage information to **PostHog**, our analytics service hosted in the European Union. This helps us understand how the app is used and improve its features and user experience.
 
-If you choose **Allow optional analytics**, Pelargo sends defined product-usage events to its PostHog Cloud project hosted in the European Union. Analytics is disabled unless you opt in.
+The information may include app interactions, city and content identifiers, app and operating-system versions, platform, language and network information, event times, and a pseudonymous identifier supplied by RevenueCat. This identifier is not your name or email address, but it can be used to associate activity over time.
 
-Events may describe actions such as:
+Pelargo's custom analytics events do not include your search text, user-created list titles or notes, free-form feedback text, precise GPS coordinates, payment-card details, or IDFA. Analytics is not used for advertising or cross-app tracking.
 
-- App start and onboarding completion.
-- City selection, city-pack activation, downloads, updates, and deletion.
-- Opening a content item and using in-app search.
-- Adding or removing an item from a list, and creating or deleting a list.
-- Starting or completing a route and starting or ending an audio guide.
-- Viewing a paywall and the outcome of a purchase attempt.
-- Submitting a feedback, city request, or content-report form.
+PostHog may receive your IP address as part of normal network communication. We configure the service so that the IP address is not retained with analytics records or used to infer your location. PostHog may still process technical connection information temporarily to provide and secure its service.
 
-Depending on the event, the information sent may include:
-
-- A pseudonymous RevenueCat App User ID, used as the PostHog event identifier.
-- Event name and time, a session identifier, app version/build, iOS version, platform, network type, device language, and the language selected inside Pelargo.
-- City IDs, canonical content identifiers, route identifiers, pack versions, and opaque list identifiers.
-- For searches, the search-field length and number of results, **not the text you searched for**.
-- For list activity, the list type and an opaque list ID, **not the title of your list or its notes**.
-- For purchase events, the outcome and relevant city/product identifier, **not payment-card details or StoreKit receipt contents**.
-
-Pelargo's custom analytics events do not include your name, email address, search text, user-created list titles or notes, free-form feedback text, precise GPS coordinates, payment-card details, or IDFA.
-
-A RevenueCat App User ID may be generated anonymously by RevenueCat and is pseudonymous rather than a name or email address. It can still be treated as personal data because events associated with the same identifier can be linked together.
-
-PostHog receives the IP address used to make the network request as part of normal internet communication. Pelargo does not add your IP address as a custom event property or use it to determine your precise location. The app sends an event-level instruction to disable GeoIP enrichment. In the PostHog project, the setting to discard client IP data is enabled; GeoIP enrichment is disabled for events, and no GeoIP transformation is configured. These settings are intended to prevent client IP addresses and GeoIP-derived location data from being retained in analytics events. PostHog may still process connection information transiently as necessary to provide and secure its service.
-
-### 2.3 Purchases and entitlements
+### 2.3 Purchases and access to city packs
 
 City-pack purchases are made through Apple's App Store purchase system (StoreKit). Apple processes the transaction and payment. Pelargo does not receive your payment-card number or bank details.
 
-Pelargo uses RevenueCat to validate transactions and manage city-pack entitlements. RevenueCat may process transaction or receipt information supplied by StoreKit, product identifiers, entitlement status, technical app/device information, and the RevenueCat App User ID. Pelargo receives the purchase and entitlement results needed to unlock the relevant content.
-
-If analytics is enabled, Pelargo may also send a purchase outcome and city/product identifier to PostHog. It does not send StoreKit receipt contents or payment-card details through its custom analytics events.
+Pelargo uses **RevenueCat** to validate transactions and manage city-pack access. RevenueCat may process transaction or receipt information supplied by StoreKit, product and entitlement information, technical app/device information, and a pseudonymous App User ID. If analytics is enabled, Pelargo may also send a purchase outcome and the relevant city or product identifier to PostHog; custom analytics events do not include StoreKit receipt contents or payment-card details.
 
 ### 2.4 Feedback, city requests, and content reports
 
-If you voluntarily send general feedback or request a new city, the text you enter is sent to Pelargo's feedback service hosted on Cloudflare. A free-text message may contain personal information if you choose to include it. Please do not include passwords, payment details, or sensitive personal information unless it is necessary for your request.
+When you send general feedback or request a city, the text you provide is sent to Pelargo's feedback service hosted by **Cloudflare**. A free-text message may contain personal information if you choose to include it. Please do not include passwords, payment details, or sensitive information unless necessary for your request.
 
-When you report a content item or image, the app sends the relevant canonical content ID or in-app asset name, together with the city-pack ID, pack version, and app version. The image-report function identifies an image asset in Pelargo; it does not upload a photo from your personal photo library.
+When you report content or an image, Pelargo sends the relevant content identifier or in-app image name, together with related city-pack and app-version information. The image-report feature identifies an image used in Pelargo; it does not upload a photo from your personal photo library.
 
-Feedback text and report details are sent to Cloudflare for review and resolution. They are not included in Pelargo's custom PostHog event payloads. The feedback service stores submission and review details such as the submission type, reported image asset name or content identifier, city-pack and app-version information, status, and any review or resolution note. The feedback records do not contain your direct email address, RevenueCat App User ID, device ID, or raw IP address. A free-text message may nevertheless contain personal information if you choose to include it.
+The feedback service stores the submission and review information needed to assess and resolve reports and maintain content-curation history. The service does not separately collect your email address, RevenueCat App User ID, device ID, or raw IP address through the feedback record. However, information you include in a free-text message may identify you.
 
-### 2.5 Private city-pack delivery and app security
+### 2.5 App security and private content delivery
 
-Some city packs or audio packages may be delivered through a private download service. To verify an app installation, check access to content, prevent abuse, and issue a temporary download link, Pelargo may send the following to its Cloudflare-hosted authorization API:
+Some city packs and audio content are delivered through a private download service. To verify an app installation, check access rights, prevent misuse, and provide a temporary download link, Pelargo and Cloudflare may process a pseudonymous app user identifier, an App Attest installation key and related verification information, and details about the requested city pack or audio content.
 
-- Your pseudonymous RevenueCat App User ID; a hash derived from this identifier may be stored in access records.
-- An App Attest key identifier associated with this app installation and the public-key material used to verify the installation.
-- Challenge identifiers, challenge data, and signed App Attest attestation or assertion data.
-- The requested city ID, pack version, asset type, and language.
+Security and access records may include app and device verification information, requested content, request time, and whether access was authorized or denied. A hashed identifier is used in relevant access records. A hashed IP address is used for rate limiting; the raw IP address is not stored in that rate-limit database record. Cloudflare may also process IP addresses and technical request information at the network or service level to operate and protect the service.
 
-The App Attest key identifier and public-key material are used for app-installation verification. They are not IDFA and are not used for advertising or cross-app tracking. The Cloudflare access database may also store technical authorization and audit details, including the app bundle and version, platform and environment, device-key identifier, requested asset and city-pack details, timestamp, authorization outcome, and reason code. A record that a temporary download link was issued means the request was authorized and a link was generated; it does not establish that the file download completed.
-
-To apply rate limits, the authorization service stores a hash of the requesting IP address in its rate-limit records; the raw IP address is not stored in those database records. Cloudflare may separately process IP addresses, request times, and technical request headers at the network or service layer to operate and protect the API.
-
-The relevant Cloudflare object-storage buckets are private and are not exposed through public r2.dev or public custom-domain access. Authorized files are delivered using temporary URLs after the access check. No automatic object-lifecycle deletion rule is currently configured for the inspected private buckets; city-pack versions are managed manually.
+The city-pack and audio storage used for private delivery is not publicly accessible. Files are provided through temporary links after an access check. App Attest information is used for app-installation verification and service security, not for advertising or cross-app tracking.
 
 ### 2.6 Maps and location
 
-In the current version, Pelargo does not request permission to access your device's precise location and does not send live GPS coordinates to Pelargo's analytics service. Map screens display coordinates for places contained in the city pack. Apple MapKit may process technical connection information and map requests when map content is displayed, in accordance with Apple's terms and privacy information.
+In the current version, Pelargo does not request permission to access your device's precise location and does not send live GPS coordinates to its analytics service. Map screens display coordinates for places included in city content. Apple MapKit may process technical connection information and map requests when map content is displayed, under Apple's terms and privacy practices.
 
-If Pelargo introduces a feature that accesses device location in a future version, this Policy and the in-app disclosures will be updated before that processing begins, and the relevant iOS permission will be requested where required.
+If Pelargo introduces a feature that accesses device location in a future version, this Policy and the relevant in-app disclosures will be updated before that processing begins. The relevant iOS permission will be requested where required.
 
 ## 3. Why we process information
 
-Depending on the information and the feature, Pelargo processes information for these purposes:
+Depending on the feature, Pelargo processes information to:
 
 | Purpose | Information involved | Basis or user choice |
 |---|---|---|
-| Provide app features and offline content | Local preferences, saved lists, city packs, playback state | Necessary to provide the features you request; stored locally where possible |
-| Process purchases and unlock city packs | StoreKit transaction data, RevenueCat App User ID, product and entitlement information | Purchase/contract and related service delivery |
-| Authorize private downloads and protect the service | App Attest data, pseudonymous app user identifier, requested pack details, technical request data | Deliver purchased content and protect the service against misuse or fraud |
-| Respond to feedback, city requests, and reports | Text or report identifiers you submit, app/content version details | Your voluntary request and the handling of that request |
-| Understand and improve Pelargo | Optional product-usage events and app/device metadata | Your opt-in consent; you can withdraw it at any time |
+| Provide app features and offline content | Local preferences, saved lists, city packs, and playback state | To provide the features you request |
+| Process purchases and provide city-pack access | StoreKit transaction information, RevenueCat identifiers, product and entitlement information | Purchase and related service delivery |
+| Secure private content delivery | App Attest verification, pseudonymous identifiers, requested content, and technical request information | Service security, access control, and abuse prevention |
+| Respond to feedback and content reports | Messages or report identifiers and related app/content information | Your voluntary request and its handling |
+| Understand and improve Pelargo | Optional usage analytics and related app/device information | Your opt-in choice; you may withdraw it at any time |
 | Meet legal obligations and handle disputes | Relevant transaction, support, or security records | Applicable legal obligations and, where permitted, legitimate interests |
 
-Declining optional analytics does not affect your ability to use Pelargo or purchase or access city packs.
+Declining optional analytics does not affect your ability to use Pelargo, purchase city packs, or access content you have purchased.
 
 ## 4. Analytics consent and your choices
 
 Analytics is off until you opt in. You can choose **Continue without analytics** and keep using Pelargo.
 
-You can change your choice at any time under **Profile → Privacy & Analytics**:
+You can change your choice at any time under **Profile → Privacy & Analytics**. When you turn analytics off, Pelargo stops collecting and sending new analytics events and deletes events on your device that are waiting to be sent.
 
-- When you turn analytics off, Pelargo stops collecting new analytics events, stops pending uploads, and deletes analytics events that are still waiting in the local SQLite queue.
-- Events already delivered to PostHog are not automatically removed when you withdraw consent.
-- You can request deletion of previously sent analytics data using the deletion-request option in **Profile → Privacy & Analytics**, or by emailing [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com). The request is reviewed and processed in the relevant service; it is not an instant automatic deletion. We will confirm when the request has been completed.
+Events already sent to PostHog are not automatically deleted when you withdraw consent. You can request deletion of previously sent analytics data through the deletion-request option in **Profile → Privacy & Analytics**, or by emailing [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com). Requests are reviewed and processed; deletion is not immediate or automatic. We will confirm when the request has been completed.
 
 ## 5. Who receives information
 
-Pelargo does not sell or rent personal information. Information is shared with service providers only to the extent needed to provide the app, process purchases, deliver content, respond to requests, or conduct optional analytics.
+Pelargo does not sell or rent personal information. Information is shared with service providers only as needed to provide the app, process purchases, deliver content, respond to requests, or conduct optional analytics.
 
 | Provider | How it is used |
 |---|---|
-| **PostHog (EU Cloud)** | Receives optional product-analytics events after you opt in. The EU Cloud service is hosted in Frankfurt, Germany. |
-| **RevenueCat** | Helps validate App Store transactions and manage purchase entitlements and the pseudonymous App User ID. |
-| **Apple** | Provides App Store/StoreKit purchase processing, App Attest, iOS services, and Apple MapKit map display. |
-| **Cloudflare** | Hosts Pelargo's feedback and content-report API and its database, private-pack authorization API and access records, and private object storage and file-delivery services. |
+| **PostHog (EU Cloud)** | Receives optional usage analytics after you opt in. The EU Cloud service is hosted in Frankfurt, Germany. |
+| **RevenueCat** | Helps validate App Store transactions and manage city-pack access and the pseudonymous App User ID. |
+| **Apple** | Provides App Store/StoreKit purchase processing, App Attest, iOS services, and Apple MapKit. |
+| **Cloudflare** | Hosts Pelargo's feedback service, private content-authorization service, and private content storage and delivery. |
 
-These providers process information under their own service terms and privacy documentation, and under the arrangements applicable to Pelargo's use of their services. Their policies are available here:
+These providers process information under their own service terms and privacy documentation, together with the arrangements applicable to Pelargo's use of their services:
 
 - [PostHog Privacy](https://posthog.com/privacy)
 - [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy-policy)
@@ -144,26 +107,24 @@ These providers process information under their own service terms and privacy do
 
 ## 6. International data processing
 
-PostHog analytics is sent to Pelargo's EU Cloud project. Apple, RevenueCat, and Cloudflare may process information in the countries where they or their service providers operate. This may include countries outside your country of residence. Where applicable law requires safeguards for an international transfer, the transfer must be made under an appropriate legal transfer mechanism and the provider arrangements applicable to the service.
+PostHog analytics is sent to Pelargo's EU Cloud project. Apple, RevenueCat, and Cloudflare may process information in countries where they or their service providers operate, which may be outside your country of residence. Where applicable law requires safeguards for an international transfer, the transfer must use an appropriate legal transfer mechanism and the provider arrangements applicable to the service.
 
 ## 7. Retention and deletion
 
-Retention methods differ by data type. Some information is stored locally or by service providers, while certain feedback, device-verification, and access-audit records are retained without a fixed automatic expiry. The following describes the current configuration reviewed for Pelargo as of the date of this Policy.
+Pelargo keeps information for as long as reasonably necessary for the purposes described in this Policy, taking into account the type of information, the feature involved, operational needs, and applicable legal requirements. Retention differs by data type:
 
 - **Local app data:** Saved lists, notes, preferences, and downloaded content remain on your device until you delete them, remove the relevant city pack, or remove the app, subject to any device backup managed by iOS.
-- **Unsent analytics events:** The local analytics queue is kept only while events are waiting to be sent. It is purged when you withdraw analytics consent.
-- **Analytics sent to PostHog:** The PostHog project is currently configured to retain analytics events for one year (up to 12 months). This event-retention setting does not necessarily delete pseudonymous Person Profiles or their properties; those may be subject to separate settings and may remain until separately deleted. You can submit a deletion request as described above. The project configuration and provider plan may change, so this setting will be reviewed when the service configuration changes.
-- **Feedback and content reports:** Submission and review records are stored in Cloudflare D1. The current implementation does not have an automatic time-based deletion schedule or scheduled cleanup for these records. They are retained for review and resolution, content-curation history, service protection, and handling related questions or disputes. A deletion request is assessed individually under applicable law; records are not automatically purged after a stated period.
-- **App Attest and access-security records:** Cloudflare D1 stores app-installation verification records, device-key and public-key information, and related authorization metadata. Expired or consumed challenge records and old rate-limit windows are cleaned up opportunistically when a new challenge is issued; this is not a guaranteed fixed deletion schedule. Registered-device records are not currently subject to automatic time-based deletion.
-- **Private-download audit records:** Download-event records in Cloudflare D1 are retained as access-history records. No automatic retention period, scheduled cleanup, or time-based deletion is currently configured for them. These records cover authorization decisions for private city-pack and audio access. An “issued” outcome means that a temporary download link was authorized and generated, not that the file was successfully downloaded. Access records use hashed pseudonymous identifiers, and the rate-limit table stores a hash of the requesting IP address rather than the raw IP address.
-- **Private object storage:** The inspected private Cloudflare R2 buckets do not have automatic lifecycle rules that expire or delete objects. City-pack versions are managed manually; objects remain stored until they are manually replaced or deleted.
+- **Analytics waiting to be sent:** Events waiting on your device are deleted when you withdraw analytics consent.
+- **Analytics sent to PostHog:** The PostHog project is currently configured to retain analytics events for up to 12 months. Pseudonymous person/profile records and their properties may have separate retention settings and may remain until separately deleted. You can submit a deletion request as described above.
+- **Feedback and content reports:** Records are kept for reviewing and resolving requests, maintaining content-curation history, protecting the service, and handling related questions or disputes. The current feedback service does not apply a fixed automatic deletion period to these records. Deletion requests are assessed individually under applicable law.
+- **App-security and access records:** Temporary verification and rate-limiting records may be cleaned up as part of normal service operations after they expire. Registered-device and content-access history records currently have no fixed automatic deletion period and are retained for app-installation verification, access control, service security, and investigation of misuse or access issues.
 - **Purchase records:** Apple and RevenueCat may retain transaction and entitlement information under their own policies and applicable legal or accounting requirements.
 
 For more information about PostHog event and profile storage, see [PostHog's data-storage documentation](https://posthog.com/docs/privacy/data-storage).
 
-To request access to or deletion of information that Pelargo controls, contact us at [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com). We may need to verify the request before acting. Some information may be retained where required by law or where necessary to establish, exercise, or defend legal claims.
+To request access to or deletion of information that Pelargo controls, contact [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com). We may need to verify your request before acting. Some information may be retained where required by law or where necessary to establish, exercise, or defend legal claims.
 
-## 8. International privacy rights
+## 8. Your privacy rights
 
 Depending on where you live and the law that applies, you may have the right to:
 
@@ -209,127 +170,90 @@ For privacy questions, access or deletion requests, or other concerns about Pela
 
 **Son güncelleme: 23 Kasım 2026**
 
-Bu Gizlilik Politikası, Pelargo iOS uygulamasının ve şehir paketlerini, uygulama özelliklerini ve destek hizmetlerini sunmak için kullanılan ilişkili servislerin bilgileri nasıl işlediğini açıklar.
+Bu Gizlilik Politikası, Pelargo iOS uygulamasını ve uygulamanın içerik, geri bildirim ve dağıtım hizmetlerini kullanırken bilgilerin nasıl işlendiğini açıklar.
 
 **Veri sorumlusu ve yayıncı:** Erdem Özdemir (bireysel geliştirici)  
 **Gizlilik iletişim adresi:** [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com)
 
-Bu Politika Pelargo uygulaması ile ilişkili içerik dağıtım, geri bildirim ve destek hizmetleri için geçerlidir. Apple veya diğer üçüncü taraf hizmet sağlayıcıların kendi gizlilik politikalarının yerine geçmez.
+Bu Politika Pelargo ve ilişkili hizmetleri için geçerlidir. Apple'ın veya diğer hizmet sağlayıcıların kendi gizlilik politikalarının yerine geçmez.
 
 ## 1. Kısaca
 
 - Pelargo'yu kullanmak için hesap oluşturmanız veya giriş yapmanız gerekmez.
 - Kaydedilen yerler, kullanıcı listeleri ve notları, uygulama tercihleri ve indirilen şehir içerikleri uygulamanın çalışması için cihazınızda saklanır.
-- Ürün kullanım analitiği isteğe bağlıdır. Pelargo analitik verilerini yalnızca açıkça izin vermenizden sonra PostHog'a gönderir. İzninizi istediğiniz zaman **Profil → Gizlilik ve Analitik** bölümünden geri çekebilirsiniz.
-- Analitiği reddetmeniz uygulama özelliklerini, şehir paketi erişimini veya satın alımları kısıtlamaz.
+- İsteğe bağlı kullanım analitiği varsayılan olarak kapalıdır. İzin vermeniz hâlinde Pelargo, sınırlı kullanım bilgilerini Avrupa Birliği'nde barındırılan PostHog analitik hizmetiyle paylaşır.
+- Analitik tercihinizi istediğiniz zaman **Profil → Gizlilik ve Analitik** bölümünden değiştirebilirsiniz. Analitiği reddetmeniz uygulama özelliklerini, şehir paketi erişimini veya satın alımları kısıtlamaz.
 - Pelargo üçüncü taraf reklam göstermez, reklam kimliği (IDFA) kullanmaz ve sizi başka şirketlerin uygulama veya internet siteleri arasında takip etmez.
-- Mevcut sürümde Pelargo cihazınızın kesin konumuna erişim izni istemez. Harita ekranları şehir içeriğinde bulunan yer koordinatlarını gösterir; canlı GPS konumunuza ihtiyaç duymaz.
+- Mevcut sürümde Pelargo cihazınızın kesin konumuna erişim izni istemez.
 
 ## 2. Pelargo tarafından işlenen bilgiler
 
 ### 2.1. Cihazınızda saklanan bilgiler
 
-Pelargo, özelliklerini sunmak için bazı bilgileri cihazınızda yerel olarak saklar. Uygulamayı nasıl kullandığınıza bağlı olarak bu bilgiler şunları içerebilir:
+Pelargo, özelliklerini sunmak için bazı bilgileri cihazınızda yerel olarak saklar. Bunlar uygulama dili ve tercihleri, onboarding durumu, kaydedilen yerler, kullanıcı listeleri ve notları, ses tercihleri ve indirilen şehir paketleri ile ses dosyalarını içerebilir.
 
-- Seçtiğiniz uygulama dili ve diğer uygulama tercihleri.
-- Onboarding ve coach mark tamamlama durumları.
-- Kaydettiğiniz yerler, oluşturduğunuz listeler, liste sıralaması ve liste notlarınız.
-- Sesli oynatma tercihleri ve ilgili uygulama durumu.
-- İndirdiğiniz şehir paketleri ve ses dosyaları.
-- Analitiği etkinleştirdiyseniz, Wi-Fi üzerinden gönderilmeyi bekleyen yerel analitik event'leri.
+Pelargo, kaydedilen listeler ve notlar için kullanıcı hesabı veya bulut senkronizasyonu hizmeti sunmaz. Bu özelliklerin normal kullanımı sırasında içerikleri Pelargo sunucularına gönderilmez. iOS cihaz yedekleri etkinse bunlar Apple ve iOS ayarlarınız kapsamında yönetilir.
 
-Pelargo, kullanıcı listeleri ve notları için bir kullanıcı hesabı veya bulut senkronizasyonu hizmeti işletmez. Normal liste kullanımı sırasında bu veriler Pelargo sunucularına gönderilmez. iOS cihaz yedeklemesi açıksa cihaz yedeklerinin kapsamı Apple ve iOS ayarlarına bağlıdır.
+### 2.2. İsteğe bağlı kullanım analitiği
 
-### 2.2. İsteğe bağlı ürün kullanım analitiği
+Siz izin vermedikçe analitik kapalıdır. İsteğe bağlı analitiğe izin verirseniz Pelargo, sınırlı ürün kullanım bilgilerini Avrupa Birliği'nde barındırılan **PostHog** analitik hizmetine gönderir. Bu bilgiler uygulamanın nasıl kullanıldığını anlamamıza ve özelliklerini geliştirmemize yardımcı olur.
 
-**İsteğe bağlı analitiğe izin ver** seçeneğini tercih ederseniz Pelargo, tanımlanmış ürün kullanım event'lerini Avrupa Birliği'nde barındırılan PostHog Cloud projesine gönderir. Siz izin vermedikçe analitik kapalıdır.
+Gönderilen bilgiler; uygulama etkileşimleri, şehir ve içerik kimlikleri, uygulama ve işletim sistemi sürümleri, platform, dil ve ağ bilgileri, olay zamanları ve RevenueCat tarafından sağlanan takma adlı bir tanımlayıcıyı içerebilir. Bu tanımlayıcı adınız veya e-posta adresiniz değildir; ancak zaman içindeki kullanım hareketlerini ilişkilendirmek için kullanılabilir.
 
-Gönderilebilecek event'ler şunları içerebilir:
+Pelargo'nun özel analitik event'lerinde arama metniniz, oluşturduğunuz listelerin adları veya notları, serbest metin geri bildirimleriniz, kesin GPS koordinatlarınız, ödeme kartı bilgileriniz veya IDFA gönderilmez. Analitik, reklam veya uygulamalar arası takip amacıyla kullanılmaz.
 
-- Uygulamanın açılması ve onboarding'in tamamlanması.
-- Şehir seçimi, şehir paketinin etkinleştirilmesi, indirilmesi, güncellenmesi ve silinmesi.
-- Bir içerik öğesinin açılması ve uygulama içi arama kullanımı.
-- Bir içeriğin listeye eklenmesi veya listeden çıkarılması; liste oluşturulması veya silinmesi.
-- Rota başlatılması veya tamamlanması; sesli rehberin başlatılması veya bitirilmesi.
-- Satın alma ekranının görüntülenmesi ve satın alma girişiminin sonucu.
-- Geri bildirim, şehir isteği veya içerik bildirimi formunun gönderilmesi.
+PostHog normal ağ iletişiminin bir parçası olarak IP adresinizi alabilir. Hizmeti, IP adresinin analitik kayıtlarıyla birlikte saklanmayacağı ve konumunuzu çıkarmak için kullanılmayacağı şekilde yapılandırıyoruz. PostHog, hizmetini sunmak ve güvenliğini sağlamak için teknik bağlantı bilgilerini geçici olarak işleyebilir.
 
-Event'e bağlı olarak gönderilen bilgiler şunları içerebilir:
-
-- PostHog event kimliği olarak kullanılan takma adlı RevenueCat App User ID.
-- Event adı ve zamanı, oturum kimliği, uygulama sürümü/build numarası, iOS sürümü, platform, ağ türü, cihaz dili ve Pelargo içinde seçtiğiniz uygulama dili.
-- Şehir kimlikleri, canonical içerik kimlikleri, rota kimlikleri, paket sürümleri ve opak liste kimlikleri.
-- Aramalar için arama alanının uzunluğu ve sonuç sayısı; **aradığınız metnin kendisi gönderilmez**.
-- Liste hareketleri için liste türü ve opak liste kimliği; **listenizin adı veya notları gönderilmez**.
-- Satın alma event'leri için sonuç ve ilgili şehir/ürün kimliği; **ödeme kartı bilgisi veya StoreKit makbuz içeriği gönderilmez**.
-
-Pelargo'nun özel analitik event'leri adınızı, e-posta adresinizi, arama metinlerinizi, oluşturduğunuz listelerin adlarını veya notlarını, serbest metin geri bildirimlerinizi, kesin GPS koordinatlarınızı, ödeme kartı bilgilerinizi veya IDFA'yı içermez.
-
-RevenueCat App User ID, RevenueCat tarafından anonim olarak oluşturulabilen, ad veya e-posta adresi niteliğinde olmayan takma adlı bir tanımlayıcıdır. Aynı kimlikle ilişkili event'lerin birbiriyle ilişkilendirilmesini sağladığından kişisel veri olarak değerlendirilebilir.
-
-PostHog, normal ağ iletişiminin bir parçası olarak bağlantı kurmak için kullanılan IP adresini alır. Pelargo IP adresinizi özel event özelliği olarak eklemez ve kesin konumunuzu belirlemek için kullanmaz. Uygulama, event düzeyinde GeoIP zenginleştirmesini kapatma talimatı gönderir. PostHog projesinde istemci IP verilerini silme ayarı etkindir; event'ler için GeoIP zenginleştirmesi kapalıdır ve herhangi bir GeoIP dönüşümü yapılandırılmamıştır. Bu ayarlar, istemci IP adreslerinin ve GeoIP kaynaklı konum bilgilerinin analitik event'lerinde saklanmasını önlemek üzere yapılandırılmıştır. PostHog, hizmetini sunmak ve güvenliğini sağlamak için bağlantı bilgilerini gerektiğinde geçici olarak yine de işleyebilir.
-
-### 2.3. Satın alımlar ve erişim hakları
+### 2.3. Satın alımlar ve şehir paketlerine erişim
 
 Şehir paketi satın alımları Apple App Store satın alma sistemi (StoreKit) üzerinden yapılır. İşlemi ve ödemeyi Apple gerçekleştirir. Pelargo ödeme kartı numaranızı veya banka bilgilerinizi almaz.
 
-Pelargo, işlemleri doğrulamak ve şehir paketi erişim haklarını yönetmek için RevenueCat kullanır. RevenueCat, StoreKit tarafından sağlanan işlem veya makbuz bilgilerini, ürün kimliklerini, erişim hakkı durumunu, uygulama/cihazla ilgili teknik bilgileri ve RevenueCat App User ID'yi işleyebilir. Pelargo, ilgili içeriğin kilidini açmak için gerekli satın alma ve entitlement sonuçlarını alır.
-
-Analitik açıksa Pelargo satın alma sonucunu ve şehir/ürün kimliğini PostHog'a da gönderebilir. Özel analitik event'leri StoreKit makbuz içeriğini veya ödeme kartı bilgilerini içermez.
+Pelargo, işlemleri doğrulamak ve şehir paketi erişim haklarını yönetmek için **RevenueCat** kullanır. RevenueCat, StoreKit tarafından sağlanan işlem veya makbuz bilgilerini, ürün ve erişim hakkı bilgilerini, uygulama/cihazla ilgili teknik bilgileri ve takma adlı App User ID'yi işleyebilir. Analitik açıksa Pelargo satın alma sonucunu ve ilgili şehir/ürün kimliğini PostHog'a da gönderebilir; özel analitik event'leri StoreKit makbuz içeriğini veya ödeme kartı bilgilerini içermez.
 
 ### 2.4. Geri bildirim, şehir istekleri ve içerik bildirimleri
 
-Genel geri bildirim gönderir veya yeni şehir talep ederseniz girdiğiniz metin Cloudflare üzerinde barındırılan Pelargo geri bildirim servisine gönderilir. Serbest metin alanına kendi tercihinizle kişisel bilgi yazarsanız bu bilgi tarafımıza ulaşabilir. Talebiniz için gerekli olmadıkça şifre, ödeme bilgisi veya hassas kişisel bilgi yazmayın.
+Genel geri bildirim gönderir veya yeni şehir talep ederseniz girdiğiniz metin **Cloudflare** üzerinde barındırılan Pelargo geri bildirim servisine gönderilir. Serbest metin alanına kendi tercihinizle kişisel bilgi yazabilirsiniz. Talebiniz için gerekli olmadıkça şifre, ödeme bilgisi veya hassas kişisel bilgi yazmayın.
 
-Bir içerik veya görsel bildirdiğinizde uygulama ilgili canonical içerik kimliğini veya uygulama içindeki görsel varlık adını; şehir paketi kimliği, paket sürümü ve uygulama sürümüyle birlikte gönderir. Görsel bildirim işlevi Pelargo içindeki görsel varlığını tanımlar; kişisel fotoğraf arşivinizden bir fotoğraf yüklemez.
+Bir içerik veya görsel bildirdiğinizde ilgili içerik kimliği veya Pelargo içindeki görsel varlığının adı, şehir paketi ve uygulama sürümü bilgileriyle birlikte gönderilir. Görsel bildirim özelliği Pelargo'da kullanılan bir görseli tanımlar; kişisel fotoğraf arşivinizden fotoğraf yüklemez.
 
-Geri bildirim metni ve bildirim ayrıntıları incelenmek ve sonuçlandırılmak üzere Cloudflare'a gönderilir. Bunlar Pelargo'nun özel PostHog event içeriğine dahil edilmez. Geri bildirim servisi; bildirim türü, bildirilen görsel varlığının adı veya içerik kimliği, şehir paketi ve uygulama sürümü bilgileri, durum ve varsa inceleme/sonuçlandırma notu gibi başvuru ve inceleme ayrıntılarını saklar. Geri bildirim kayıtlarında doğrudan e-posta adresiniz, RevenueCat App User ID, cihaz kimliğiniz veya ham IP adresiniz tutulmaz. Bununla birlikte serbest metin alanına kendi tercihinizle kişisel bilgi yazarsanız bu bilgi kayda girebilir.
+Geri bildirim servisi; talepleri incelemek ve sonuçlandırmak, bildirimleri değerlendirmek ve içerik kürasyonu geçmişini korumak için gerekli başvuru ve inceleme bilgilerini saklar. Geri bildirim kaydı kapsamında e-posta adresiniz, RevenueCat App User ID'niz, cihaz kimliğiniz veya ham IP adresiniz ayrıca toplanmaz. Bununla birlikte serbest metin alanına yazdığınız bilgiler sizi tanımlayabilir.
 
-### 2.5. Özel şehir paketi dağıtımı ve uygulama güvenliği
+### 2.5. Uygulama güvenliği ve özel içerik dağıtımı
 
-Bazı şehir paketleri veya ses paketleri özel indirme hizmeti üzerinden dağıtılabilir. Uygulama kurulumunu doğrulamak, içeriğe erişimi kontrol etmek, kötüye kullanımı önlemek ve geçici indirme bağlantısı oluşturmak için Pelargo, Cloudflare üzerinde barındırılan yetkilendirme API'sine şunları gönderebilir:
+Bazı şehir paketleri ve ses içerikleri özel bir indirme hizmeti üzerinden sunulur. Uygulama kurulumunu doğrulamak, erişim haklarını kontrol etmek, kötüye kullanımı önlemek ve geçici indirme bağlantısı oluşturmak için Pelargo ve Cloudflare; takma adlı bir uygulama kullanıcı tanımlayıcısını, App Attest kurulum anahtarını ve ilgili doğrulama bilgilerini, ayrıca istenen şehir paketi veya ses içeriğiyle ilgili bilgileri işleyebilir.
 
-- Takma adlı RevenueCat App User ID; bu tanımlayıcıdan türetilen bir hash erişim kayıtlarında saklanabilir.
-- Bu uygulama kurulumuna bağlı App Attest anahtar kimliği ve kurulumu doğrulamak için kullanılan açık anahtar bilgileri.
-- Challenge kimlikleri, challenge verileri ve imzalı App Attest attestation/assertion verileri.
-- İstenen şehir kimliği, paket sürümü, varlık türü ve dil.
+Güvenlik ve erişim kayıtları; uygulama ve cihaz doğrulama bilgilerini, istenen içeriği, istek zamanını ve erişimin onaylanıp reddedildiğini içerebilir. İlgili erişim kayıtlarında hash'lenmiş bir tanımlayıcı kullanılır. Kötüye kullanımı önlemek için rate limit kayıtlarında hash'lenmiş IP adresi kullanılır; ham IP adresi bu kayıt tablosunda saklanmaz. Cloudflare, hizmeti işletmek ve korumak için ağ veya servis katmanında IP adreslerini ve teknik istek bilgilerini ayrıca işleyebilir.
 
-App Attest anahtar kimliği ve açık anahtar bilgileri uygulama kurulumunun doğrulanması için kullanılır. IDFA değildir; reklam veya uygulamalar arası takip amacıyla kullanılmaz. Cloudflare erişim veritabanında uygulama bundle kimliği ve sürümü, platform ve ortam, cihaz anahtarı kimliği, istenen varlık ve şehir paketi bilgileri, zaman damgası, yetkilendirme sonucu ve neden kodu gibi teknik yetkilendirme ve denetim ayrıntıları da saklanabilir. Geçici indirme bağlantısının oluşturulduğunu gösteren “issued” kaydı, isteğin yetkilendirildiği ve bağlantının üretildiği anlamına gelir; dosyanın başarıyla indirildiğini kanıtlamaz.
-
-Yetkilendirme servisi, istek hızını sınırlamak için IP adresinin hash'lenmiş halini rate-limit kayıtlarında saklar; ham IP adresi bu veritabanı kayıtlarında tutulmaz. Cloudflare, API'yi işletmek ve korumak için ağ veya servis katmanında IP adreslerini, istek zamanlarını ve teknik istek başlıklarını ayrıca işleyebilir.
-
-İlgili Cloudflare nesne depolama bucket'ları özeldir; public r2.dev veya public custom-domain erişimine açık değildir. Yetkilendirilmiş dosyalar erişim kontrolünden sonra geçici URL'ler kullanılarak sunulur. İncelenen özel bucket'larda otomatik nesne yaşam döngüsü silme kuralı yapılandırılmamıştır; şehir paketi sürümleri manuel olarak yönetilir.
+Özel dağıtımda kullanılan şehir paketi ve ses depolama alanları herkese açık değildir. Dosyalar, erişim kontrolünden sonra geçici bağlantılarla sunulur. App Attest bilgileri reklam veya uygulamalar arası takip için değil, uygulama kurulumunu doğrulamak ve hizmet güvenliğini sağlamak için kullanılır.
 
 ### 2.6. Haritalar ve konum
 
-Mevcut sürümde Pelargo cihazınızın konumuna erişim izni istemez ve canlı GPS koordinatlarınızı Pelargo analitik servisine göndermez. Harita ekranları şehir paketlerinde bulunan yerlere ait koordinatları gösterir. Harita içeriği görüntülenirken Apple MapKit, Apple'ın koşulları ve gizlilik açıklamaları doğrultusunda teknik bağlantı bilgilerini ve harita isteklerini işleyebilir.
+Mevcut sürümde Pelargo cihazınızın kesin konumuna erişim izni istemez ve canlı GPS koordinatlarınızı analitik servisine göndermez. Harita ekranları şehir paketlerinde bulunan yerlere ait koordinatları gösterir. Harita içeriği görüntülenirken Apple MapKit, Apple'ın koşulları ve gizlilik uygulamaları doğrultusunda teknik bağlantı bilgilerini ve harita isteklerini işleyebilir.
 
 Pelargo gelecekte cihaz konumuna erişen bir özellik sunarsa bu işlem başlamadan önce Politika ve uygulama içi bilgilendirmeler güncellenecek ve gerekli durumlarda ilgili iOS izni istenecektir.
 
 ## 3. Bilgileri hangi amaçlarla işliyoruz?
 
-Pelargo, bilgi türüne ve kullanılan özelliğe bağlı olarak bilgileri şu amaçlarla işler:
+Pelargo, kullanılan özelliğe bağlı olarak bilgileri şu amaçlarla işler:
 
 | Amaç | İlgili bilgiler | Hukuki sebep veya kullanıcı tercihi |
 |---|---|---|
-| Uygulama özelliklerini ve çevrimdışı içeriği sunmak | Yerel tercihler, kaydedilen listeler, şehir paketleri, oynatma durumu | Talep ettiğiniz özelliği sunmak için gerekli; mümkün olduğunda cihazda yerel saklama |
-| Satın alımları işlemek ve şehir paketlerinin kilidini açmak | StoreKit işlem bilgileri, RevenueCat App User ID, ürün ve entitlement bilgileri | Satın alma/sözleşme ve ilgili hizmetin sunulması |
-| Özel indirmeleri yetkilendirmek ve hizmeti korumak | App Attest verileri, takma adlı uygulama kullanıcı kimliği, talep edilen paket ayrıntıları, teknik istek verileri | Satın alınan içeriğin teslimi ve kötüye kullanım/dolandırıcılığın önlenmesi |
-| Geri bildirim, şehir talebi ve bildirimlere yanıt vermek | Gönderdiğiniz metin veya bildirim kimlikleri, uygulama/içerik sürüm bilgileri | Gönüllü talebiniz ve bu talebin sonuçlandırılması |
-| Pelargo'yu anlamak ve geliştirmek | İsteğe bağlı ürün kullanım event'leri ve uygulama/cihaz üst verileri | Açık rızanız; istediğiniz zaman geri çekebilirsiniz |
+| Uygulama özelliklerini ve çevrimdışı içeriği sunmak | Yerel tercihler, kaydedilen listeler, şehir paketleri ve oynatma durumu | Talep ettiğiniz özellikleri sunmak |
+| Satın alımları işlemek ve şehir paketlerine erişim sağlamak | StoreKit işlem bilgileri, RevenueCat tanımlayıcıları, ürün ve erişim hakkı bilgileri | Satın alma ve ilişkili hizmetin sunulması |
+| Özel içerik dağıtımını güvenli hâle getirmek | App Attest doğrulaması, takma adlı tanımlayıcılar, istenen içerik ve teknik istek bilgileri | Erişim kontrolü, hizmet güvenliği ve kötüye kullanımın önlenmesi |
+| Geri bildirim ve içerik bildirimlerini yanıtlamak | Gönderdiğiniz mesajlar veya bildirim kimlikleri ve ilgili uygulama/içerik bilgileri | Gönüllü talebiniz ve talebin sonuçlandırılması |
+| Pelargo'yu anlamak ve geliştirmek | İsteğe bağlı kullanım analitiği ve ilgili uygulama/cihaz bilgileri | Açık rızanız; istediğiniz zaman geri çekebilirsiniz |
 | Yasal yükümlülükleri yerine getirmek ve uyuşmazlıkları ele almak | İlgili işlem, destek veya güvenlik kayıtları | Uygulanabilir yasal yükümlülükler ve izin verilen durumlarda meşru menfaat |
 
-İsteğe bağlı analitiği reddetmeniz Pelargo'yu kullanmanızı, şehir paketi satın almanızı veya içeriğe erişmenizi engellemez.
+İsteğe bağlı analitiği reddetmeniz Pelargo'yu kullanmanızı, şehir paketi satın almanızı veya satın aldığınız içeriğe erişmenizi engellemez.
 
 ## 4. Analitik izni ve tercihleriniz
 
 Analitik siz izin verene kadar kapalıdır. **Analitik olmadan devam et** seçeneğini tercih ederek Pelargo'yu kullanmaya devam edebilirsiniz.
 
-Tercihinizi istediğiniz zaman **Profil → Gizlilik ve Analitik** bölümünden değiştirebilirsiniz:
+Tercihinizi istediğiniz zaman **Profil → Gizlilik ve Analitik** bölümünden değiştirebilirsiniz. Analitiği kapattığınızda Pelargo yeni analitik event'lerini toplamayı ve göndermeyi durdurur; cihazınızda gönderilmeyi bekleyen event'leri siler.
 
-- Analitiği kapattığınızda Pelargo yeni analitik event'leri toplamayı durdurur, bekleyen yüklemeleri durdurur ve yerel SQLite kuyruğunda gönderilmeyi bekleyen event'leri siler.
-- Daha önce PostHog'a iletilmiş event'ler, izni geri çekmenizle otomatik olarak silinmez.
-- Daha önce gönderilmiş analitik verilerinin silinmesini **Profil → Gizlilik ve Analitik** bölümündeki silme talebi seçeneğinden veya [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com) adresine e-posta göndererek isteyebilirsiniz. Talep ilgili serviste incelenip işleme alınır; anında ve otomatik silme değildir. İşlem tamamlandığında size bilgi verilir.
+Daha önce PostHog'a gönderilmiş event'ler, izni geri çekmenizle otomatik olarak silinmez. Daha önce gönderilmiş analitik verilerinin silinmesini **Profil → Gizlilik ve Analitik** bölümündeki silme talebi seçeneğinden veya [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com) adresine e-posta göndererek isteyebilirsiniz. Talepler incelenip işleme alınır; silme işlemi anında ve otomatik değildir. İşlem tamamlandığında size bilgi verilir.
 
 ## 5. Bilgileri kimlerle paylaşıyoruz?
 
@@ -337,12 +261,12 @@ Pelargo kişisel bilgileri satmaz veya kiralamaz. Bilgiler yalnızca uygulamayı
 
 | Hizmet sağlayıcı | Kullanım amacı |
 |---|---|
-| **PostHog (EU Cloud)** | İzin verdikten sonra isteğe bağlı ürün analitiği event'lerini alır. EU Cloud hizmeti Almanya'nın Frankfurt şehrinde barındırılır. |
-| **RevenueCat** | App Store işlemlerinin doğrulanmasına, satın alma erişim haklarının ve takma adlı App User ID'nin yönetilmesine yardımcı olur. |
-| **Apple** | App Store/StoreKit satın alma işlemleri, App Attest, iOS servisleri ve Apple MapKit harita gösterimini sağlar. |
-| **Cloudflare** | Pelargo'nun geri bildirim ve içerik bildirimi API'sini ve veritabanını, özel paket yetkilendirme API'sini ve erişim kayıtlarını, özel nesne depolama ve dosya dağıtım servislerini barındırır. |
+| **PostHog (EU Cloud)** | İzin verdikten sonra isteğe bağlı kullanım analitiği event'lerini alır. EU Cloud hizmeti Almanya'nın Frankfurt şehrinde barındırılır. |
+| **RevenueCat** | App Store işlemlerinin doğrulanmasına, şehir paketi erişim haklarının ve takma adlı App User ID'nin yönetilmesine yardımcı olur. |
+| **Apple** | App Store/StoreKit satın alma işlemleri, App Attest, iOS servisleri ve Apple MapKit hizmetlerini sağlar. |
+| **Cloudflare** | Pelargo'nun geri bildirim servisini, özel içerik yetkilendirme servisini ve özel içerik depolama/dağıtım altyapısını barındırır. |
 
-Bu sağlayıcılar bilgileri kendi hizmet koşulları ve gizlilik dokümanları ile Pelargo'nun hizmet kullanımına ilişkin düzenlemeler kapsamında işler. Politikalarına aşağıdan ulaşabilirsiniz:
+Bu sağlayıcılar bilgileri kendi hizmet koşulları ve gizlilik dokümanları ile Pelargo'nun hizmet kullanımına ilişkin düzenlemeler kapsamında işler:
 
 - [PostHog Gizlilik](https://posthog.com/privacy)
 - [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy-policy)
@@ -355,20 +279,18 @@ PostHog analitiği Pelargo'nun EU Cloud projesine gönderilir. Apple, RevenueCat
 
 ## 7. Saklama süreleri ve silme
 
-Saklama yöntemleri veri türüne göre değişir. Bazı bilgiler cihazda veya hizmet sağlayıcılarda saklanırken, belirli geri bildirim, cihaz doğrulama ve erişim denetim kayıtları sabit bir otomatik sona erme süresi olmadan tutulur. Aşağıdaki açıklamalar, bu Politikanın tarihi itibarıyla Pelargo için incelenen mevcut yapılandırmayı yansıtır.
+Pelargo bilgileri yalnızca bu Politikada açıklanan amaçlar için makul ölçüde gerekli olduğu süre boyunca; bilgi türünü, ilgili özelliği, operasyonel ihtiyaçları ve geçerli yasal yükümlülükleri dikkate alarak saklar. Saklama uygulamaları veri türüne göre değişir:
 
-- **Yerel uygulama verileri:** Kaydedilen listeler, notlar, tercihler ve indirilen içerikler siz silene, ilgili şehir paketini kaldırana veya uygulamayı kaldırana kadar cihazınızda kalır. iOS cihaz yedekleri bu kapsamın dışında olabilir.
-- **Gönderilmemiş analitik event'leri:** Yerel analitik kuyruğu yalnızca event'ler gönderilmeyi beklerken tutulur. Analitik iznini geri çektiğinizde kuyruk temizlenir.
-- **PostHog'a gönderilmiş analitik:** PostHog projesi şu anda analitik event'leri için bir yıllık (en fazla 12 ay) saklama süresine göre yapılandırılmıştır. Bu event saklama ayarı, takma adlı Person Profile kayıtlarını veya bunların özelliklerini mutlaka silmez; bunlar ayrı ayarlara tabi olabilir ve ayrıca silinene kadar tutulabilir. Yukarıda açıklanan yöntemle silme talebinde bulunabilirsiniz. Proje yapılandırması ve hizmet planı değişebileceğinden, servis ayarları değiştiğinde bu süre yeniden kontrol edilir.
-- **Geri bildirim ve içerik bildirimleri:** Başvuru ve inceleme kayıtları Cloudflare D1'de saklanır. Mevcut uygulamada bu kayıtlar için otomatik, zamana bağlı bir silme takvimi veya zamanlanmış temizlik işlemi bulunmamaktadır. Kayıtlar inceleme ve sonuçlandırma, içerik kürasyonu geçmişi, hizmetin korunması ve ilgili soru veya uyuşmazlıkların ele alınması amacıyla tutulur. Silme talepleri geçerli mevzuat kapsamında ayrı ayrı değerlendirilir; kayıtlar belirtilmiş bir sürenin sonunda otomatik olarak temizlenmez.
-- **App Attest ve erişim güvenliği kayıtları:** Cloudflare D1'de uygulama kurulumu doğrulama kayıtları, cihaz anahtarı ve açık anahtar bilgileri ile ilgili yetkilendirme üst verileri saklanır. Süresi dolmuş veya tüketilmiş challenge kayıtları ile eski rate-limit pencereleri, yeni bir challenge oluşturulurken fırsat bulundukça temizlenir; bu işlem garantili ve sabit bir silme takvimi değildir. Kayıtlı cihaz bilgileri şu anda otomatik zamana bağlı silmeye tabi değildir.
-- **Özel indirme denetim kayıtları:** Cloudflare D1'deki download-event kayıtları erişim geçmişi olarak tutulur. Bu kayıtlar için şu anda otomatik saklama süresi, zamanlanmış temizlik veya zamana bağlı silme yapılandırılmamıştır. Kayıtlar özel şehir paketi ve ses içeriği erişimine ilişkin yetkilendirme kararlarını kapsar. “Issued” sonucu geçici indirme bağlantısının yetkilendirilip oluşturulduğunu ifade eder; dosyanın başarıyla indirildiğini göstermez. Erişim kayıtlarında hash'lenmiş takma adlı tanımlayıcılar, rate-limit tablosunda ise ham IP adresi yerine isteğin IP adresinin hash'i kullanılır.
-- **Özel nesne depolama:** İncelenen özel Cloudflare R2 bucket'larında nesneleri otomatik olarak sona erdiren veya silen yaşam döngüsü kuralları bulunmamaktadır. Şehir paketi sürümleri manuel olarak yönetilir; nesneler manuel olarak değiştirilene veya silinene kadar saklanır.
-- **Satın alma kayıtları:** Apple ve RevenueCat işlem ve entitlement bilgilerini kendi politikaları ve geçerli yasal/muhasebe yükümlülükleri kapsamında saklayabilir.
+- **Yerel uygulama verileri:** Kaydedilen listeler, notlar, tercihler ve indirilen içerikler siz silene, ilgili şehir paketini kaldırana veya uygulamayı kaldırana kadar cihazınızda kalır. iOS cihaz yedekleri Apple/iOS ayarlarına bağlıdır.
+- **Gönderilmeyi bekleyen analitik:** Cihazınızdaki gönderilmemiş event'ler analitik iznini geri çektiğinizde silinir.
+- **PostHog'a gönderilmiş analitik:** PostHog projesi şu anda analitik event'lerini 12 aya kadar saklayacak şekilde yapılandırılmıştır. Takma adlı kişi/profil kayıtları ve bunlara ait özellikler ayrı saklama ayarlarına tabi olabilir ve ayrıca silinene kadar tutulabilir. Yukarıda açıklanan yöntemle silme talebinde bulunabilirsiniz.
+- **Geri bildirim ve içerik bildirimleri:** Kayıtlar talepleri incelemek ve sonuçlandırmak, içerik kürasyonu geçmişini korumak, hizmeti güvenli tutmak ve ilgili soru veya uyuşmazlıkları ele almak için saklanır. Mevcut geri bildirim hizmetinde bu kayıtlar için sabit süreli otomatik silme uygulanmaz. Silme talepleri geçerli mevzuat kapsamında ayrı ayrı değerlendirilir.
+- **Uygulama güvenliği ve erişim kayıtları:** Geçici doğrulama ve rate limit kayıtları, süreleri dolduktan sonra normal servis işleyişi sırasında temizlenebilir. Kayıtlı cihaz ve içerik erişim geçmişi kayıtları için şu anda sabit süreli otomatik silme uygulanmaz; bu kayıtlar uygulama kurulumunu doğrulamak, erişimi kontrol etmek, hizmet güvenliğini sağlamak ve kötüye kullanım veya erişim sorunlarını incelemek amacıyla tutulur.
+- **Satın alma kayıtları:** Apple ve RevenueCat işlem ve erişim hakkı bilgilerini kendi politikaları ve geçerli yasal/muhasebe yükümlülükleri kapsamında saklayabilir.
 
-PostHog event ve profil saklama hakkında daha fazla bilgi için [PostHog veri saklama dokümantasyonuna](https://posthog.com/docs/privacy/data-storage) bakabilirsiniz.
+PostHog'un event ve profil saklama uygulamaları hakkında daha fazla bilgi için [PostHog veri saklama dokümantasyonuna](https://posthog.com/docs/privacy/data-storage) bakabilirsiniz.
 
-Pelargo'nun kontrol ettiği bilgilere erişmek veya bunların silinmesini istemek için [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com) adresinden bize ulaşabilirsiniz. Talebi işleme almadan önce kimliğinizi veya talebin size ait olduğunu doğrulamamız gerekebilir. Kanunen saklanması gereken veya hukuki taleplerin oluşturulması, kullanılması ya da savunulması için gerekli bazı bilgiler tutulabilir.
+Pelargo'nun kontrol ettiği bilgilere erişmek veya bunların silinmesini istemek için [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com) adresinden bize ulaşabilirsiniz. Talebi işleme almadan önce talebin size ait olduğunu doğrulamamız gerekebilir. Kanunen saklanması gereken veya hukuki taleplerin oluşturulması, kullanılması ya da savunulması için gerekli bazı bilgiler tutulabilir.
 
 ## 8. Gizlilik haklarınız
 
@@ -385,7 +307,7 @@ Pelargo'nun kontrol ettiği bilgilere erişmek veya bunların silinmesini isteme
 
 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) bakımından veri sorumlusu **Erdem Özdemir**'dir. KVKK'nın 11. maddesi kapsamındaki; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, hukuki şartları oluştuğunda düzeltme veya silme isteme ve kanunda yer alan diğer haklarınızı kullanma taleplerinizi [erdemsupports@gmail.com](mailto:erdemsupports@gmail.com) adresine e-posta göndererek iletebilirsiniz.
 
-Talepleriniz uygulanabilir mevzuatta öngörülen süre ve yöntemle yanıtlanır. Yanıtımızı yeterli bulmamanız halinde KVKK'da belirtilen usule uygun olarak Kişisel Verileri Koruma Kurumuna başvurabilirsiniz.
+Talepleriniz uygulanabilir mevzuatta öngörülen süre ve yöntemle yanıtlanır. Yanıtımızı yeterli bulmamanız hâlinde KVKK'da belirtilen usule uygun olarak Kişisel Verileri Koruma Kurumuna başvurabilirsiniz.
 
 ### Avrupa Ekonomik Alanı, Birleşik Krallık veya İsviçre'deki kullanıcılar
 
@@ -393,7 +315,7 @@ GDPR veya eşdeğer yerel mevzuatın uygulandığı durumlarda erişim, düzeltm
 
 ## 9. Güvenlik
 
-Pelargo; kullanıcı listeleri ve tercihleri için yerel saklama, şifreli ağ bağlantıları, satın alma erişim kontrolleri ve korumalı içerik dağıtımı için App Attest doğrulaması dahil, bilgileri korumaya yönelik makul teknik ve organizasyonel önlemler kullanır. Hiçbir aktarım veya saklama yöntemi tamamen güvenli değildir; mutlak güvenlik garanti edilemez.
+Pelargo; kullanıcı listeleri ve tercihlerinin cihazda saklanması, şifreli ağ bağlantıları, satın alma erişim kontrolleri ve korumalı içerik dağıtımı için App Attest doğrulaması dahil, bilgileri korumaya yönelik makul teknik ve organizasyonel önlemler kullanır. Hiçbir aktarım veya saklama yöntemi tamamen güvenli değildir; mutlak güvenlik garanti edilemez.
 
 ## 10. Çocukların gizliliği
 
